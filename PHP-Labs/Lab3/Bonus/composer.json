@@ -1,0 +1,19 @@
+{
+    "authors": [{
+        "name":"Omar Walid",
+        "email":"omar.omo1712@gmail.com"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3.261"
+    },
+    "autoload": {
+        "files": [
+          "config.php"
+        ],
+        "classmap": [
+            "classes"
+          ]
+      }
+    
+}
