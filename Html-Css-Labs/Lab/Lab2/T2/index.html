@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+    <form action="Welcome.html" method="post">
+        <h1>
+          Change Email
+        </h1>
+      
+        <div class="container">
+            <div class="username">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" pattern="[A-Za-z]{4,}" required id="name">
+          <span class="validation">The username can be only alphanetic characters and more than 3 char</span>
+        </div>
+        <div class="container">
+          <div class="userage">
+        <label for="uage"><b>Userage</b></label>
+        <input type="text" placeholder="Enter Userage" name="uage" pattern="[0-9]{1,}" required id="age">
+        <span class="validation">The userage can be only numric characters</span>
+      </div>
+     <div class="">
+          <label for="email"><b>New Email</b></label>
+          <input type="email" placeholder="Enter New Email" name="email" required id="email">
+          <span class="validation"> Email not include any special char except @ </span>
+      
+          <button type="submit" id="btn">Login</button>
+        </div>
+      </form>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
