@@ -1,0 +1,140 @@
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+nav{
+    top:0;
+}
+nav a{
+    text-decoration:none;
+    color: #000;
+}
+
+nav div.nav{
+    width:auto;
+    letter-spacing: 4px;
+    background-color:#fff;
+    padding : 18px 16px;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}    
+}
+
+a{
+}
+
+nav div.right{
+    float:right
+}
+nav div.right a:hover{
+    background-color: rgb(49, 47, 47) ;
+    color: #fff;
+    padding: 18px;
+}
+
+header.main-sec{
+    position:relative;
+}
+
+header.main-sec img.image{
+    max-width:100%;
+    vertical-align:middle;
+    height:auto;
+}
+
+header div.text{
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
+header h1{
+    padding:12px 24px;
+    opacity:0.60
+}
+
+section.about-sec{
+    padding-top:64px;
+    padding-bottom:64px;
+    display: flex;
+}
+section.about-sec img{
+    border-radius:4px;
+    opacity:0.75
+}
+
+section.about-sec div.text{
+    padding:12px 24px;
+    font-size:20px;
+
+}
+
+.center{
+    text-align: center;
+}
+
+section.about-sec div p{
+    margin: 20px;
+}
+
+.text-grey{
+    color:#757575
+}
+
+section.menu-sec{
+    padding-top:64px;
+    padding-bottom:64px;
+    display: flex;
+    
+}
+section.menu-sec div.text{
+    padding:12px 24px;
+    padding-right: 200px;
+} 
+section.menu-sec img{
+    border-radius:4px;
+    opacity:0.75;
+   
+}
+
+section.contact-sec{
+    padding: 20px;
+    padding-top:64px;
+    padding-bottom:64px;
+    font-size:20px;
+
+}
+
+
+form input{
+    padding-top:16px;
+    padding-bottom:16px;
+
+    padding:8px;
+     display:block;
+     border:none;
+     border-bottom:
+     1px solid #ccc;
+     width:100%
+}
+
+form button{
+    background-color: #f1f1f1;
+    border:none;
+    padding:10px 16px;
+        
+}
+footer{
+    background-color: #f1f1f1;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+footer a{
+    text-decoration: none;
+    color: #000;
+}
+footer a:hover{
+    color: aqua;
+}
