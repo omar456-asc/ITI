@@ -1,0 +1,9 @@
+$(".slide-toggle1").on("click",function(){
+    $("#photo1").slideToggle(2000)
+})
+$(".slide-toggle2").on("click",function(){
+    $("#photo2").slideToggle(2000)
+})
+$(".slide-toggle3").on("click",function(){
+    $("#photo3").slideToggle(2000)
+})
