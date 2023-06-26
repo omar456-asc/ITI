@@ -1,0 +1,19 @@
+{
+    "name": "pc/lab",
+    "description": "This is UnitTestLab",
+    "license": "MCIT",
+    "autoload": {
+        "psr-4": {
+            "Pc\\Lab\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Omar Walid",
+            "email": "omo_1712@yahoo.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}

@@ -1,0 +1,1 @@
+{"version":1,"defects":{"MyClassTest::testAddition":3,"UserTest::testValidEmail":6,"CalculatorTest::test_factorial":3},"times":{"MyClassTest::testAddition":0.004,"UserTest::testValidEmail":0,"UserTest::testInvalidEmail":0.001,"CalculatorTest::test_factorial":0.006}}
